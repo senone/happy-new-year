@@ -2,7 +2,7 @@
 * @Author: senon
 * @Date:   2017-01-09 19:07:11
 * @Last Modified by:   senon
-* @Last Modified time: 2017-01-15 21:10:51
+* @Last Modified time: 2017-01-15 22:56:20
 */
 
 /* 初始化 */
@@ -88,7 +88,7 @@ html,body{
 #page1>.lanten{
 	color: #fff;
 	position: absolute;
-	top:-4%;
+	top:-5vh;
 	left: 0;
 	right:0;
 	width: 45vw;
@@ -96,10 +96,17 @@ html,body{
 	margin:auto;
 	background:url("../images/p1_lantern.png") no-repeat center bottom;
 	background-size: 100%;
-	font-size: 4rem;
-	text-align: center;
 	padding-top:30vh;
 	box-sizing:border-box;
+}
+#page1>.lanten>.click{
+	position: absolute;
+	top: 54vw;
+	left: 0;
+	width: 100%;
+	height: 20vw;
+	font-size: 4rem;
+	text-align: center;
 }
 #page1>.lanten:before{
 	content: "";
@@ -151,7 +158,7 @@ html,body{
 #page1>.title{
 	font-size: 2rem;
 	position: absolute;
-	bottom:60px;
+	bottom:15vw;
 	left:0;
 	right:0;
 	text-align: center;
