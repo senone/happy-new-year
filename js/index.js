@@ -2,7 +2,7 @@
 * @Author: senon
 * @Date:   2017-01-09 19:07:02
 * @Last Modified by:   senon
-* @Last Modified time: 2017-01-15 20:10:48
+* @Last Modified time: 2017-01-15 23:53:27
 */
 
 'use strict';
@@ -31,9 +31,12 @@
 		page1.style.display='none';
 		page2.style.display='block';
 		page3.style.display='block';
+		
 		setTimeout( function(){
+			page3.style.position='static';
 			page2.setAttribute('class', 'page show');
 			page3.setAttribute('class', 'page show');
+
 		}, 5000);
 	}, false);
 })(window,document)

@@ -2,7 +2,7 @@
 * @Author: senon
 * @Date:   2017-01-09 19:07:11
 * @Last Modified by:   senon
-* @Last Modified time: 2017-01-15 22:56:20
+* @Last Modified time: 2017-01-15 23:53:05
 */
 
 /* 初始化 */
@@ -70,6 +70,7 @@ html,body{
 }
 .page{
 	height: 100%;
+	overflow: hidden;
 }
 .page > .bg{
 	z-index: -1;
@@ -271,7 +272,7 @@ html,body{
 }
 #page3{
 	display: none;
-	position: relative;
+	position: absolute;
 	transition: 1s;
 }
 #page3>.bg{
